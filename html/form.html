@@ -1,0 +1,131 @@
+<html>
+<head>
+<link rel="stylesheet" href="../css/Styles.css"/>
+<link rel="stylesheet" href="../css/Styles1.css"/>
+<link rel="stylesheet" href="../css/formstyles.css"/>
+<script src="../js/Java.js"></script>
+<title>
+Staff Only
+</title>
+</head>
+<body>
+<header>	
+<table border=0 width=100%>
+<tr>
+<td> <h2 id=head>CEYLON WILDLIFE SAFARI</h2></td>
+
+<th><h4 id=h4>
+<ul class="option">
+<li class="option"><a href="#help">HELP |</a></li>
+<li class="option"><a href="#terms">TERMS |</a></li>
+<li class="option"><a href="#privacy">PRIVACY |</a></li>
+<li class="option"><a href="login.html">SIGN IN</a></li>
+</ul>
+</h4></br>
+
+<a href="register.html"><button type="button" id=bt><b>Create an Account</b></button></a>
+</th>
+</tr>
+<tr>
+<td><img class="logo" src="../images/logo.png" width="200" height="250"></td>
+</tr>
+</table>
+
+<br><br><br><br><br>
+<ul class="menu">
+<li class="menu"><a href="Home.html"><b>HOME</b></a></li>
+<li class="menu"><a href="about.html"><b>ABOUT US</b></a></li>
+<li class="menu"><a href="details.html"><b>PARK DETAILS</b></a></li>
+<li class="menu"><a href="register.html"><b>REGISTRATION</b></a></li>
+<li class="menu"><a href="Packages.html"><b>PACKAGES</b></a></li>
+<li class="menu"><a href="Discount and Offers.html"><b>DISCOUNT & OFFERS</b></a></li>
+<li class="menu"><a href="Payment.html"><b>PAYMENT</b></a></li>
+<li class="menu"><a href="Payment Form.html"><b>PAYMENT FORM</b></a></li>
+<li class="menu"><a href="Time Tables.html"><b>TIME TABLE</b></a></li>
+<li class="menu"><a href="Contact Us.html"><b>CONTACT US</b></a></li>
+<li class="menu"><input type="text" placeholder="Search.."></li>
+</ul>
+
+</header>
+
+<br>
+<center>
+<div>
+<form action="../html/SubmitEmployeeDetails.php" method= "POST" onSubmit="return" chechpassword()">
+<h2 align="center"> Employee Details Form </h2><br>
+
+First Name
+<br>
+<input type="text" name="first_name" placeholder="Employee First Name" required>
+<br><br>
+Last Name
+<br>
+<input type="text" name="last_name" placeholder="Employee Last Name" required>
+<br><br>
+
+Employee Designation
+<br>
+<input type="text" name="designation" placeholder="Employee Designation" required>
+<br><br>
+
+Mobile Number
+<br>
+<input type="phone1" name="mobile_num" pattern="[0-9]{10}" placeholder="1234567890" required>
+<br><br>
+Landline Number
+<br>
+<input type="phone" name="landline_num" pattern="[0-9]{10}" placeholder="1234567890" required>
+<br><br>
+E-mail
+<br>
+<input type="email" name="email" placeholder="hka@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required>
+<br><br><br>
+<input type ="submit" name="Submit" value="submit" id="sbmt">
+<input type="reset" name="Reset" value="reset" id="rst">
+</form>
+</div>
+</center>
+
+<footer>
+<hr id="line1">
+
+<div class="down" id=tb1 style"border-style: groove; border-color: white;">
+<table border=0 width=100%>
+<tr>
+<table border=0 width=100%>
+<tr>
+<td>Location:</td>
+<td>Email:</td>  
+<td>Telrphone:</td> 
+</tr>
+<tr>
+<td>Ceylon Wild Safari,</br>No 23,</br>Kandy Road,</br>Colombo.</td>
+<td>abs@gmail.com</br>des@gmail.com</td>
+<td>011-294384</br>021-2304201</br>071-1394564</td>
+<td>
+<a href="facebook.com"><img src="../images/fb.jpg" width="60" height="60"></a>
+<a href="twitter.com"><img src="../images/tw.png" width="60" height="60"></a>
+<a href="instagram.com"><img src="../images/ins.jpg" width="60" height="60"><a>
+<a href="gplus.com"><img src="../images/gpl.jpg" width="60" height="60"></a>
+
+</td>
+</tr>	
+<tr>
+<th colspan=3>
+<a href="Contact us.html">Contact Us </a>
+<a href="#privacy" >| Privacy Policy</a>
+</th>
+</tr>
+</table>
+<br><br><br>			
+</div>		
+<hr id="line1">
+
+<table border=0 width=100%>	
+<tr>
+<th><h6 id=last>All Rights Reserved.</h6></th>
+</table>
+</footer>
+
+</body>
+</html>

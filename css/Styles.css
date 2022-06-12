@@ -1,0 +1,268 @@
+body{
+	background-image: url("../images/safarip.jpg");
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+.logo{
+	display: block;
+	margin:left;
+	
+}
+#h2{
+	font-size: 50px;
+	color:white;
+	text-align:left;
+	text-shadow:4px 4px black;
+	font-weight: bold;
+	font-style:italic;
+}
+#h4{
+	text-align:right;
+	font-family:Lucida Sans;
+	font-size:12pt;
+	color: black;	
+}
+ul.option{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#D2B48C;
+	overflow: hidden;
+
+}
+
+li.option{
+	float:left;
+
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: underline;
+}
+
+
+#bt{
+	background-color:white;
+	padding-top:3pt;
+	padding-bottom:3pt;
+	
+	
+}
+
+ul.menu{
+	list-style-type:none;
+	margin:2;
+	padding:3;
+	background-color:#D2B48C;
+	overflow: hidden;
+}
+li.menu{
+	float:left;
+
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 3px 5px;
+
+}
+
+li a:hover{
+	
+	background-color: orange;
+	
+
+}
+
+hr#line{
+	border: 2px solid white;
+}
+
+h3{
+	font-size: 20px;
+	color:white;
+	text-align:left;
+	
+}
+
+
+
+.parkdetails{
+	background-color: orange;
+	margin: 2x;
+	padding: 5px;
+	table-layout:fixed;
+	text-align:left;
+	
+}
+
+#tbl{
+	margine-top: auto;
+	margine-right: auto;
+	margine-bottom: auto;
+	margine-left: auto;
+	
+}
+.down{
+	background-color:#D2B48C;
+	margin: 2x;
+	padding: 5px;
+	table-layout:fixed;
+}
+
+#h6{
+	font-size: 16px;
+	color:white;
+	text-align:center;
+}
+
+
+
+h3{
+	font-size: 30px;
+	color:white;
+	text-align:left;
+	text-shadow:4px 4px black ;
+	font-weight: bold;
+	font-style:italic;
+}
+
+
+
+{
+  font-family: Arial;
+  margin: 0;
+}
+
+{
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: black;
+  
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.parks{
+	background-color: orange;
+	margin: 100x;
+	padding:500px;
+	
+}
+
+#prk{
+	margin-left:2px;
+	margin-right:2px;
+	display:block;
+	padding:10px 10px 10px 10px;
+}
+
+
+#td1{
+	text-align:left;
+	padding:10px 10px 10px 10px;
+}
+
+#td2{
+	text-align:left;
+	padding:10px 10px 10px 10px;
+	
+}
+
+#td3{
+	text-align:left;
+	padding:10px 10px 10px 10px;
+	
+}
+
