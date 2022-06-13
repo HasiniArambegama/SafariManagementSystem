@@ -1,1 +1,1 @@
-# WildLife_Safari_Management_System
+# Safari_Management_System
